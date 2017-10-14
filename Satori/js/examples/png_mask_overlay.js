@@ -26,10 +26,6 @@
         draw.clickArea.mouseEnabled = true;
 
 
-
-
-
-
     };
     
     brfv4Example.updateCurrentExample = function (brfManager, imageData, draw) {
@@ -127,7 +123,7 @@
                     tempContext.clearRect(0, 0, image.width, image.height);
 
                     var link = document.getElementById('capture');
-                    link.setAttribute('download', 'MintyPaper.png');
+                    link.setAttribute('download', 'Satori.png');
                     link.setAttribute('href', image.toDataURL("image/png").replace("image/png", "image/octet-stream"));
                     link.click();
                     setTimeout(function () {

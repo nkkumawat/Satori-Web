@@ -42,7 +42,17 @@
 	mode_change.click(function () {
 		var value = this.name;
 		var index = this.about;
+		var filters = $('.images');
+		var change_mode = $('.change-mode');
+		change_mode.html(value);
         if(_isFirstSelect) return;
+        if(value === "Face Draw" ) {
+           filters.addClass("disp-on");
+           filters.removeClass("disp-off");
+        }else {
+            filters.addClass("disp-off");
+            filters.removeClass("disp-on");
+        }
 
         var url = urlMap[value];
 
