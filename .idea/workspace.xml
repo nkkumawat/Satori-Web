@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0aa61e9-9d56-4e1b-a553-4c3d1454ceda" name="Default" comment="" />
+    <list default="true" id="a0aa61e9-9d56-4e1b-a553-4c3d1454ceda" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Satori/css/materialize.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Satori/js/materialize.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Satori/css/brfv4_examples_theme.css" afterPath="$PROJECT_DIR$/Satori/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Satori/index.html" afterPath="$PROJECT_DIR$/Satori/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Satori/js/utils/BRFv4ExampleChooser.js" afterPath="$PROJECT_DIR$/Satori/js/utils/BRFv4ExampleChooser.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,19 +22,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/index.html">
+        <entry file="file://$PROJECT_DIR$/Satori/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="29" column="69" lean-forward="true" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="80" />
+            <state relative-caret-position="233">
+              <caret line="71" column="85" lean-forward="false" selection-start-line="71" selection-start-column="85" selection-end-line="71" selection-end-column="85" />
               <folding>
-                <element signature="n#style#0;n#canvas#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="png_mask_overlay.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/png_mask_overlay.js">
+      <file leaf-file-name="png_mask_overlay.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Satori/js/examples/png_mask_overlay.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-18">
               <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
@@ -36,28 +43,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="brfv4_examples_theme.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/css/brfv4_examples_theme.css">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Satori/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="36">
+              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BRFv4ExampleChooser.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4ExampleChooser.js">
+        <entry file="file://$PROJECT_DIR$/Satori/js/utils/BRFv4ExampleChooser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+            <state relative-caret-position="275">
+              <caret line="67" column="14" lean-forward="false" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="smile_detection.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/smile_detection.js">
+        <entry file="file://$PROJECT_DIR$/Satori/js/examples/smile_detection.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="70">
               <caret line="78" column="20" lean-forward="false" selection-start-line="78" selection-start-column="23" selection-end-line="79" selection-end-column="36" />
@@ -87,6 +94,9 @@
         <option value="$PROJECT_DIR$/brfv4_javascript_examples/css/brfv4_examples_theme.css" />
         <option value="$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4ExampleChooser.js" />
         <option value="$PROJECT_DIR$/brfv4_javascript_examples/js/examples/png_mask_overlay.js" />
+        <option value="$PROJECT_DIR$/Satori/js/utils/BRFv4ExampleChooser.js" />
+        <option value="$PROJECT_DIR$/Satori/index.html" />
+        <option value="$PROJECT_DIR$/Satori/css/main.css" />
       </list>
     </option>
   </component>
@@ -127,39 +137,19 @@
             <path>
               <item name="Satori-Web" type="b2602c69:ProjectViewProjectNode" />
               <item name="Satori-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="brfv4_javascript_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="Satori" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Satori-Web" type="b2602c69:ProjectViewProjectNode" />
               <item name="Satori-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="brfv4_javascript_examples" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Satori-Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Satori-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="brfv4_javascript_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="Satori" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Satori-Web" type="b2602c69:ProjectViewProjectNode" />
               <item name="Satori-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="brfv4_javascript_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="Satori" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Satori-Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Satori-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="brfv4_javascript_examples" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Satori-Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Satori-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="brfv4_javascript_examples" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,6 +167,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Satori/js" />
+      <recent name="$PROJECT_DIR$/Satori/css" />
       <recent name="$PROJECT_DIR$/brfv4_javascript_examples/js" />
     </key>
   </component>
@@ -203,12 +195,12 @@
       <option name="presentableId" value="Default" />
       <updated>1507959815786</updated>
       <workItem from="1507959817434" duration="9387000" />
-      <workItem from="1507971145116" duration="8988000" />
+      <workItem from="1507971145116" duration="10506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18375000" />
+    <option name="totallyTimeSpent" value="19893000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -221,6 +213,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="-4" width="1321" height="773" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27546296" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -229,7 +222,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -251,17 +244,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/index.html">
+    <entry file="file://$PROJECT_DIR$/Satori/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#canvas#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/BRFv4Demo.js">
+    <entry file="file://$PROJECT_DIR$/Satori/js/BRFv4Demo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
@@ -269,7 +262,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4ExampleChooser.js">
+    <entry file="file://$PROJECT_DIR$/Satori/js/utils/BRFv4ExampleChooser.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="49" column="48" lean-forward="false" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
@@ -277,17 +270,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4DrawingUtils_CreateJS.js">
+    <entry file="file://$PROJECT_DIR$/Satori/js/utils/BRFv4DrawingUtils_CreateJS.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4Drawing3DUtils_ThreeJS.js">
+    <entry file="file://$PROJECT_DIR$/Satori/js/utils/BRFv4Drawing3DUtils_ThreeJS.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -295,17 +288,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4SetupExample.js">
+    <entry file="file://$PROJECT_DIR$/Satori/js/utils/BRFv4SetupExample.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/candide_overlay.js">
+    <entry file="file://$PROJECT_DIR$/Satori/js/examples/candide_overlay.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
@@ -315,21 +308,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/libs/brf/BRFv4_JS_trial.js">
+    <entry file="file://$PROJECT_DIR$/Satori/js/libs/brf/BRFv4_JS_trial.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9234">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/assets/brfv4_model.json">
+    <entry file="file://$PROJECT_DIR$/Satori/assets/brfv4_model.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/assets/brfv4_occlusion_head.json">
+    <entry file="file://$PROJECT_DIR$/Satori/assets/brfv4_occlusion_head.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
@@ -352,17 +345,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4SetupExample.js">
+    <entry file="file://$PROJECT_DIR$/Satori/js/utils/BRFv4SetupExample.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/BRFv4Demo.js">
+    <entry file="file://$PROJECT_DIR$/Satori/js/BRFv4Demo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
@@ -370,17 +363,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4DrawingUtils_CreateJS.js">
+    <entry file="file://$PROJECT_DIR$/Satori/js/utils/BRFv4DrawingUtils_CreateJS.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/candide_overlay.js">
+    <entry file="file://$PROJECT_DIR$/Satori/js/examples/candide_overlay.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
@@ -398,7 +391,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/jquery.min.js">
+    <entry file="file://$PROJECT_DIR$/Satori/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -406,7 +399,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4Drawing3DUtils_ThreeJS.js">
+    <entry file="file://$PROJECT_DIR$/Satori/js/utils/BRFv4Drawing3DUtils_ThreeJS.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -414,7 +407,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/smile_detection.js">
+    <entry file="file://$PROJECT_DIR$/Satori/js/examples/smile_detection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="78" column="20" lean-forward="false" selection-start-line="78" selection-start-column="23" selection-end-line="79" selection-end-column="36" />
@@ -422,36 +415,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/css/brfv4_examples_theme.css">
+    <entry file="file://$PROJECT_DIR$/Satori/css/materialize.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4ExampleChooser.js">
+    <entry file="file://$PROJECT_DIR$/Satori/js/materialize.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/index.html">
+    <entry file="file://$PROJECT_DIR$/Satori/js/examples/png_mask_overlay.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="69" lean-forward="true" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="80" />
+        <state relative-caret-position="-18">
+          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Satori/js/utils/BRFv4ExampleChooser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="67" column="14" lean-forward="false" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Satori/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="71" column="85" lean-forward="false" selection-start-line="71" selection-start-column="85" selection-end-line="71" selection-end-column="85" />
           <folding>
-            <element signature="n#style#0;n#canvas#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/png_mask_overlay.js">
+    <entry file="file://$PROJECT_DIR$/Satori/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        <state relative-caret-position="36">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
           <folding />
         </state>
       </provider>
