@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/brfv4_examples_theme.css">
 	<title>3D Objects</title>
+	<script src="js/jquery.min.js"></script>
 	<script src="js/libs/createjs/preloadjs-0.6.2.min.js"></script>
 	<script src="js/BRFv4Demo.js"></script>
 	<script>
@@ -12,9 +13,7 @@
 	</script>
 </head>
 <body>
-<a id="capture" onclick="imageCapture()">Capture</a>
-<br><br>
-
+<a id="capture" onclick="imageCapture()" hidden>Capture</a>
 <div id="_wrapper">
 	<div id="_content">
 		<video width="500" height="400"  id="_webcam"></video>
@@ -26,15 +25,21 @@
 		<div id="_progressBar"></div>
 	</div>
 </div>
-
 <div id="_settingsRight"></div>
-
+<div class="images">
+    <input type="checkbox" value="Capture on smile" name="smile" id="smile-check"/>Capture on Smile<br><br>
+	<img width="50" height="50" name="0" class="images-set" src="assets/brfv4_lion.png">
+	<img width="50" height="50" name="1" class="images-set" src="assets/brfv4_img_glasses.png">
+	<img width="50" height="50" name="2" class="images-set" src="assets/1.png">
+	<img width="50" height="50" name="3" class="images-set" src="assets/2.png"><br>
+	<img width="50" height="50" name="4" class="images-set" src="assets/3.png">
+	<img width="50" height="50" name="5" class="images-set" src="assets/4.png">
+	<img width="50" height="50" name="6" class="images-set" src="assets/5.png">
+	<img width="50" height="50" name="7" class="images-set" src="assets/6.png"><br>
+	<img width="50" height="50" name="8" class="images-set" src="assets/7.png">
+</div>
 </body>
-
-
 <script>
-    var x ,y;
-
     function mirrorImage(ctx, image, x , y , horizontal, vertical ){
         ctx.save();
         ctx.setTransform(
@@ -51,24 +56,17 @@
         var drawing = document.getElementById("_drawing");
         var temp = document.getElementById("_drawing1");
         var threeD = document.getElementById("_t3d");
-
         var imageContext = image.getContext('2d');
-
         var tempContext = temp.getContext('2d');
-
-
         mirrorImage(tempContext , drawing , 0 , 0 ,true , false);
         imageContext.drawImage(temp, 0, 0  );
         tempContext.clearRect(0, 0, image.width, image.height);
-
         mirrorImage(tempContext , threeD , 0 , 0 ,true , false);
         imageContext.drawImage(temp, 0, 0  );
         tempContext.clearRect(0, 0, image.width, image.height);
-
         var link = document.getElementById('capture');
         link.setAttribute('download', 'MintyPaper.png');
         link.setAttribute('href', image.toDataURL("image/png").replace("image/png", "image/octet-stream"));
     }
 </script>
-
 </html>

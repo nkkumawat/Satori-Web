@@ -53,6 +53,32 @@
 				var color =
 					(((0xff * (1.0 - smileFactor) & 0xff) << 16)) +
 					(((0xff * smileFactor) & 0xff) << 8);
+				var flag = false;
+				if(smileFactor > 0.5 && flag === false) {
+                    flag = true;
+                    var image = document.getElementById("_imageData");
+                    var drawing = document.getElementById("_drawing");
+                    var temp = document.getElementById("_drawing1");
+                    var threeD = document.getElementById("_t3d");
+
+                    var imageContext = image.getContext('2d');
+                    var tempContext = temp.getContext('2d');
+
+                    mirrorImage(tempContext , drawing , 0 , 0 ,true , false);
+                    imageContext.drawImage(temp, 0, 0  );
+                    tempContext.clearRect(0, 0, image.width, image.height);
+
+                    mirrorImage(tempContext , threeD , 0 , 0 ,true , false);
+                    imageContext.drawImage(temp, 0, 0  );
+                    tempContext.clearRect(0, 0, image.width, image.height);
+
+                    var link = document.getElementById('capture');
+                    link.setAttribute('download', 'MintyPaper.png');
+                    link.setAttribute('href', image.toDataURL("image/png").replace("image/png", "image/octet-stream"));
+                    link.click();
+                    // setTimeout(fun)
+                    // flag = false;
+				}
 
 				// Face Tracking results: 68 facial feature points.
 

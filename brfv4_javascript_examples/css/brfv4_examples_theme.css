@@ -13,3 +13,28 @@ video 			{ position: absolute; background-color: transparent; display: none;  ma
 #_settingsLeft 	{ position: absolute; width: 160px; height: 480px; background-color: transparent; }
 #_settingsRight { position: absolute; width: 255px; height:  100%; background-color: transparent; right: 0; }
 #_msg           { position: absolute; width: 100%;  height:  40px; background-color: transparent; bottom: 0; }
+#_settingsRight {
+ background-color: #26a69a;
+}
+
+.images {
+    float: right;
+    position: relative;
+    top:40%;
+    cursor: pointer;
+    background-color: #26a69a;
+    padding:10px;
+    color: #fff;
+    font-size: 140%;
+}
+.images-set {
+    border: 2px solid white;
+}
+.images-set:hover {
+    border: 2px solid red;
+}
+#smile-check {
+    width: 20px;
+    height: 20px;
+
+}

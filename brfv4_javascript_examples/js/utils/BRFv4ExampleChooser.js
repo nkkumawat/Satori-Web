@@ -5,7 +5,7 @@
 
 	var urlMap 	= {
 		"Candide overlay":		"js/examples/candide_overlay.js",
-		"Smile detection":		"js/examples/smile_detection.js",
+		// "Smile detection":		"js/examples/smile_detection.js",
 		"png - mask overlay":	"js/examples/png_mask_overlay.js",
 		//"3D example":			"js/examples/ThreeJS_example.js",
 		//"Face texture":			["assets/brfv4_face_textures.js", "js/examples/face_texture_overlay.js"]

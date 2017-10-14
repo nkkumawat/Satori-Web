@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0aa61e9-9d56-4e1b-a553-4c3d1454ceda" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/assets/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/assets/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/assets/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/assets/7.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/assets/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/assets/brfv4_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/assets/brfv4_portrait_chris.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/assets/brfv4_portrait_marcel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/assets/brfv4_two_faces.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/assets/brfv4_woman_old.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/assets/brfv4_women_young.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/assets/op.png" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/assets/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/js/jquery.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/css/brfv4_examples_theme.css" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/css/brfv4_examples_theme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/index.html" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/js/examples/ThreeJS_example.js" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/js/examples/ThreeJS_example.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/js/examples/candide_overlay.js" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/js/examples/candide_overlay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/js/examples/face_texture_overlay.js" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/js/examples/face_texture_overlay.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/js/examples/png_mask_overlay.js" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/js/examples/png_mask_overlay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4Drawing3DUtils_ThreeJS.js" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4Drawing3DUtils_ThreeJS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/js/examples/smile_detection.js" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/js/examples/smile_detection.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4ExampleChooser.js" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4ExampleChooser.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,22 +21,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="24" column="62" lean-forward="false" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+            <state relative-caret-position="306">
+              <caret line="29" column="69" lean-forward="true" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="80" />
+              <folding>
+                <element signature="n#style#0;n#canvas#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="png_mask_overlay.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/png_mask_overlay.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BRFv4Demo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/BRFv4Demo.js">
+      <file leaf-file-name="brfv4_examples_theme.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/css/brfv4_examples_theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+            <state relative-caret-position="286">
+              <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -58,60 +57,29 @@
       <file leaf-file-name="BRFv4ExampleChooser.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4ExampleChooser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="49" column="48" lean-forward="false" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+            <state relative-caret-position="336">
+              <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BRFv4DrawingUtils_CreateJS.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4DrawingUtils_CreateJS.js">
+      <file leaf-file-name="smile_detection.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/smile_detection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BRFv4Drawing3DUtils_ThreeJS.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4Drawing3DUtils_ThreeJS.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3706">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="70">
+              <caret line="78" column="20" lean-forward="false" selection-start-line="78" selection-start-column="23" selection-end-line="79" selection-end-column="36" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BRFv4SetupExample.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4SetupExample.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="candide_overlay.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/candide_overlay.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-              <folding>
-                <marker date="1507968524868" expanded="true" signature="110:112" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>exampleCode</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -120,10 +88,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/brfv4_javascript_examples/js/BRFv4Demo.js" />
-        <option value="$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4ExampleChooser.js" />
         <option value="$PROJECT_DIR$/brfv4_javascript_examples/js/examples/candide_overlay.js" />
         <option value="$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4SetupExample.js" />
+        <option value="$PROJECT_DIR$/brfv4_javascript_examples/js/examples/smile_detection.js" />
         <option value="$PROJECT_DIR$/brfv4_javascript_examples/index.html" />
+        <option value="$PROJECT_DIR$/brfv4_javascript_examples/css/brfv4_examples_theme.css" />
+        <option value="$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4ExampleChooser.js" />
+        <option value="$PROJECT_DIR$/brfv4_javascript_examples/js/examples/png_mask_overlay.js" />
       </list>
     </option>
   </component>
@@ -134,10 +105,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="50" />
-    <option name="y" value="338" />
+    <option name="x" value="314" />
+    <option name="y" value="330" />
     <option name="width" value="1321" />
-    <option name="height" value="766" />
+    <option name="height" value="759" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -154,8 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,6 +142,12 @@
               <item name="Satori-Web" type="462c0819:PsiDirectoryNode" />
               <item name="brfv4_javascript_examples" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Satori-Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Satori-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="brfv4_javascript_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Satori-Web" type="b2602c69:ProjectViewProjectNode" />
@@ -198,6 +173,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,6 +182,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/brfv4_javascript_examples/js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -228,32 +210,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507959815786</updated>
-      <workItem from="1507959817434" duration="8916000" />
+      <workItem from="1507959817434" duration="9387000" />
+      <workItem from="1507971145116" duration="8467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8916000" />
+    <option name="totallyTimeSpent" value="17854000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="-4" width="1321" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27546296" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -268,93 +260,27 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/libs/brf/BRFv4_JS_trial.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9234">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/assets/brfv4_model.json">
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/assets/brfv4_occlusion_head.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/face_tracking/ThreeJS_example.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/face_tracking/smile_detection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#canvas#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/BRFv4Demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="864">
           <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="1130" column="0" lean-forward="false" selection-start-line="1130" selection-start-column="0" selection-end-line="1130" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/candide_overlay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <marker date="1507968524868" expanded="true" signature="110:112" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4SetupExample.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4ExampleChooser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="882">
           <caret line="49" column="48" lean-forward="false" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
           <folding />
         </state>
@@ -372,16 +298,169 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4Drawing3DUtils_ThreeJS.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3706">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4SetupExample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/candide_overlay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <marker date="1507968524868" expanded="true" signature="110:112" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/libs/brf/BRFv4_JS_trial.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9234">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/assets/brfv4_model.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/assets/brfv4_occlusion_head.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/face_tracking/ThreeJS_example.js" />
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/face_tracking/smile_detection.js" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="1130" column="0" lean-forward="false" selection-start-line="1130" selection-start-column="0" selection-end-line="1130" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4SetupExample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/BRFv4Demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4DrawingUtils_CreateJS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/candide_overlay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <marker date="1507968524868" expanded="true" signature="110:112" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/legacy.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="445" column="18" lean-forward="false" selection-start-line="445" selection-start-column="18" selection-end-line="445" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4Drawing3DUtils_ThreeJS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/smile_detection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="78" column="20" lean-forward="false" selection-start-line="78" selection-start-column="23" selection-end-line="79" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/css/brfv4_examples_theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/utils/BRFv4ExampleChooser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="24" column="62" lean-forward="false" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+        <state relative-caret-position="306">
+          <caret line="29" column="69" lean-forward="true" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#canvas#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brfv4_javascript_examples/js/examples/png_mask_overlay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding />
         </state>
       </provider>
