@@ -40,14 +40,13 @@ brfv4Example.start = function() {
 		"js/utils/BRFv4Drawing3DUtils_ThreeJS.js",				// ThreeJS 3d object placement.
 
 		"js/utils/BRFv4SetupWebcam.js",							// webcam handling
-		"js/utils/BRFv4SetupPicture.js",						// picture/image handling
 		"js/utils/BRFv4SetupExample.js",						// overall example setup
 
 		"js/utils/BRFv4PointUtils.js",							// some calculation helpers
   
 		"js/utils/BRFv4ExampleChooser.js",						// gui: choose an example
 
-		"js/examples/face_tracking/png_mask_overlay.js"		// start with this example
+		"js/examples/png_mask_overlay.js"		// start with this example
 
 	], function() {
 		brfv4Example.init("webcam");

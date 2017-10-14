@@ -4,11 +4,11 @@
 	if(typeof QuickSettings === "undefined") return;
 
 	var urlMap 	= {
-		"Candide overlay":		"js/examples/face_tracking/candide_overlay.js",
-		"Smile detection":		"js/examples/face_tracking/smile_detection.js",
-		"png - mask overlay":	"js/examples/face_tracking/png_mask_overlay.js",
-		"3D example":			"js/examples/face_tracking/ThreeJS_example.js",
-		"Face texture":			["assets/brfv4_face_textures.js", "js/examples/face_tracking/face_texture_overlay.js"]
+		"Candide overlay":		"js/examples/candide_overlay.js",
+		"Smile detection":		"js/examples/smile_detection.js",
+		"png - mask overlay":	"js/examples/png_mask_overlay.js",
+		"3D example":			"js/examples/ThreeJS_example.js",
+		"Face texture":			["assets/brfv4_face_textures.js", "js/examples/face_texture_overlay.js"]
 	};
 	var labels = [];
 	for (var key in urlMap) { labels.push(key); } // Fill in the labels.
