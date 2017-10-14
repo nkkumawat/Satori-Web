@@ -44,10 +44,10 @@
 		brfv4Example.gui.exampleChooser = QuickSettings.create(
 			2, 2, "Example Chooser", brfv4Example.dom.createDiv("_settingsRight"))
 			.setWidth(250)
-			.addHTML("Switch between examples", "Which example do you want to try? Use the drop down to choose another example.").hideTitle("Switch between examples")
+			// .addHTML("Switch between examples", "Which example do you want to try? Use the drop down to choose another example.").hideTitle("Switch between examples")
 			.addDropDown("_example", labels, onExampleChosen)
 			.hideTitle("_example")
-			.setValuesFromJSON({ "_example": 2}); // "basic - face tracking - track single face"
+			.setValuesFromJSON({ "_example": 0	}); // "basic - face tracking - track single face"
 
 		_isFirstSelect = false;
 	}

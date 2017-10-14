@@ -46,7 +46,7 @@ brfv4Example.start = function() {
   
 		"js/utils/BRFv4ExampleChooser.js",						// gui: choose an example
 
-		"js/examples/png_mask_overlay.js"		// start with this example
+		"js/examples/candide_overlay.js"		// start with this example
 
 	], function() {
 		brfv4Example.init("webcam");
