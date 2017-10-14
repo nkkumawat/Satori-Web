@@ -1,122 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-	<meta charset="utf-8">
-	<!--<link rel="stylesheet" type="text/css" href="css/materialize.min.css">-->
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<title>3D Objects</title>
-
-</head>
-<body>
-<nav>
-    <div class="nav-wrapper">
-        <a href="#" class="brand-logo center">Logo</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Change Mode</a>
-
-            <!-- Dropdown Structure -->
-            <ul id='dropdown1' class='dropdown-content'>
-                <li><a  name="Candide" about="0" class="mode-changer">Candide </a></li>
-                <li><a  name="Face Draw" about="1" class="mode-changer">Face Draw</a></li>
-
-            </ul>
-            <!--<li><a href="sass.html">Sass</a></li>-->
-            <!--<li><a href="badges.html">Components</a></li>-->
-            <!--<li><a href="collapsible.html">JavaScript</a></li>-->
-        </ul>
-    </div>
-</nav>
-<a id="capture" onclick="imageCapture()" hidden>Capture</a>
-<!--<div class="row">-->
-    <!--<div class="col s12 m7">-->
-        <div id="_wrapper">
-            <div id="_content" >
-                <video  class="responsive-video" id="_webcam"></video>
-                <canvas id="_imageData"></canvas>
-                <canvas  id="_faceSub"></canvas>
-                <canvas  id="_t3d"></canvas>
-                <canvas width="500" height="400"  id="_drawing"></canvas>
-                <canvas width="700" height="700"  style="z-index: -100" id="_drawing1"></canvas>
-                <div id="_progressBar"></div>
-            </div>
-        </div>
-    <!--</div>-->
-<!--</div>-->
-<!--<div class="row">-->
-    <!--<div class="col s4 m7"></div>-->
-    <!--<div class="col s4 m7"></div>-->
-    <!--<div class="col s4 m7">-->
-        <div class="images">
-            Capture on Smile<input type="checkbox" value="Capture on smile" name="smile" id="smile-check" class="white"/><br><br>
-            <img width="50" height="50" name="0" class="images-set" src="assets/brfv4_lion.png">
-            <img width="50" height="50" name="1" class="images-set" src="assets/brfv4_img_glasses.png">
-            <img width="50" height="50" name="2" class="images-set" src="assets/1.png">
-            <img width="50" height="50" name="3" class="images-set" src="assets/2.png"><br>
-            <img width="50" height="50" name="4" class="images-set" src="assets/3.png">
-            <img width="50" height="50" name="5" class="images-set" src="assets/4.png">
-            <img width="50" height="50" name="6" class="images-set" src="assets/5.png">
-            <img width="50" height="50" name="7" class="images-set" src="assets/6.png"><br>
-            <img width="50" height="50" name="8" class="images-set" src="assets/7.png">
-        </div>
-    <!--</div>-->
-<!--</div>-->
-
-<!--<footer class="page-footer">-->
-    <!--<div class="container">-->
-        <!--<div class="row">-->
-            <!--<div class="col l6 s12">-->
-                <!--<h5 class="white-text">Footer Content</h5>-->
-                <!--<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>-->
-            <!--</div>-->
-            <!--<div class="col l4 offset-l2 s12">-->
-                <!--<h5 class="white-text">Links</h5>-->
-                <!--<ul>-->
-                    <!--<li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>-->
-                <!--</ul>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</footer>-->
-
-
-</body>
-
-<script src="js/jquery.min.js"></script>
-<script src="js/materialize.min.js"></script>
-<script src="js/libs/createjs/preloadjs-0.6.2.min.js"></script>
-<script src="js/BRFv4Demo.js"></script>
-<script>
-    window.onload = brfv4Example.start;
-</script>
-<script>
-    function mirrorImage(ctx, image, x , y , horizontal, vertical ){
-        ctx.save();
-        ctx.setTransform(
-            horizontal ? -1 : 1, 0, // set the direction of x axis
-            0, vertical ? -1 : 1,   // set the direction of y axis
-            x + horizontal ? image.width : 0, // set the x origin
-            y + vertical ? image.height : 0   // set the y origin
-        );
-        ctx.drawImage(image,0,0);
-        ctx.restore();
-    }
-    function imageCapture() {
-        var image = document.getElementById("_imageData");
-        var drawing = document.getElementById("_drawing");
-        var temp = document.getElementById("_drawing1");
-        var threeD = document.getElementById("_t3d");
-        var imageContext = image.getContext('2d');
-        var tempContext = temp.getContext('2d');
-        mirrorImage(tempContext , drawing , 0 , 0 ,true , false);
-        imageContext.drawImage(temp, 0, 0  );
-        tempContext.clearRect(0, 0, image.width, image.height);
-        mirrorImage(tempContext , threeD , 0 , 0 ,true , false);
-        imageContext.drawImage(temp, 0, 0  );
-        tempContext.clearRect(0, 0, image.width, image.height);
-        var link = document.getElementById('capture');
-        link.setAttribute('download', 'MintyPaper.png');
-        link.setAttribute('href', image.toDataURL("image/png").replace("image/png", "image/octet-stream"));
-    }
-</script>
+<html>
+    <head>
+        <title>Login</title>
+        <script src="../brfv4_javascript_examples/js/Cookie.js"></script>
+        <script>
+            function validateForm() {
+                var Name = document.forms["myForm"]["Name"].value;
+                setCookie("Name", Name, 1);
+                document.location.href = '/brfv4_javascript_examples/land.html';
+                return false;
+            }
+        </script>
+    </head>
+    <body>
+        <form name="myForm" onsubmit="return validateForm()" method="get">
+            <input title="Name" type="text" id="Name" name="Name"/>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
 </html>

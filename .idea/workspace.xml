@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0aa61e9-9d56-4e1b-a553-4c3d1454ceda" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Satori/css/main.css" afterPath="$PROJECT_DIR$/Satori/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Satori/index.html" afterPath="$PROJECT_DIR$/Satori/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/js/Cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/land.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brfv4_javascript_examples/index.html" afterPath="$PROJECT_DIR$/brfv4_javascript_examples/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/Satori/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+              <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#canvas#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -44,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/Satori/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+              <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -186,12 +186,12 @@
       <option name="presentableId" value="Default" />
       <updated>1507959815786</updated>
       <workItem from="1507959817434" duration="9387000" />
-      <workItem from="1507971145116" duration="11202000" />
+      <workItem from="1507971145116" duration="11247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20589000" />
+    <option name="totallyTimeSpent" value="20634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,7 +441,7 @@
     <entry file="file://$PROJECT_DIR$/Satori/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -449,7 +449,7 @@
     <entry file="file://$PROJECT_DIR$/Satori/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+          <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#canvas#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
