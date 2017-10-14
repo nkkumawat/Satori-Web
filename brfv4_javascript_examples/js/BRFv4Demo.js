@@ -1,35 +1,21 @@
-//
-// Namespace: brfv4Example structures these examples.
-//
-
 var brfv4Example = {
 
-	appId: "excal2017	", // Choose your own app id. 8 chars minimum.
-
-	loader: { queuePreloader: null },	// preloading/example loading
-	imageData: {						// image data source handling
-		webcam: { stream: null },		// either webcam ...
-		picture: {}						// ... or pictures/images
+	appId: "excal2017",
+	loader: { queuePreloader: null },
+	imageData: {
+		webcam: { stream: null },
+		picture: {}
 	},
-	dom: {},							// html dom stuff
-	gui: {},							// QuickSettings elements
-	drawing: {},						// drawing the results using createJS
-	drawing3d: {						// all 3D engine functions
-		t3d: {}//,						// ThreeJS stuff
-		//f3d: {}						// Flare3D stuff (coming later)
+	dom: {},
+	gui: {},
+	drawing: {},
+	drawing3d: {
+		t3d: {}
 	},
-	stats: {}							// fps meter
+	stats: {}
 };
 
-//
-// Namespace: brfv4 is the (mandatory) namespace for the BRFv4 library.
-//
-
 var brfv4 = {locateFile: function(fileName) { return "js/libs/brf/BRFv4_JS_trial.js.mem"; }};
-
-//
-// Demo entry point: preloading js files.
-//
 
 brfv4Example.start = function() {
 
@@ -37,7 +23,7 @@ brfv4Example.start = function() {
 
 		"js/libs/brf/BRFv4_JS_trial.js",						// BRFv4 SDK
 
-		"https://webrtc.github.io/adapter/adapter-latest.js",	// webcam polyfill for older browsers
+        "js/libs/adapter/adapter-latest.js",
 
 		"js/libs/quicksettings/quicksettings.min.css",			// gui elements
 		"js/libs/quicksettings/quicksettings.js",
@@ -49,7 +35,6 @@ brfv4Example.start = function() {
 		"js/libs/threejs/three.js",								// ThreeJS: a 3D engine
 
 		"js/utils/BRFv4DOMUtils.js",							// DOM handling
-		"js/utils/BRFv4Stats.js",								// FPS meter
 
 		"js/utils/BRFv4DrawingUtils_CreateJS.js",				// BRF result drawing
 		"js/utils/BRFv4Drawing3DUtils_ThreeJS.js",				// ThreeJS 3d object placement.
@@ -59,27 +44,15 @@ brfv4Example.start = function() {
 		"js/utils/BRFv4SetupExample.js",						// overall example setup
 
 		"js/utils/BRFv4PointUtils.js",							// some calculation helpers
-
-							// gui: choose either webcam or picture
+  
 		"js/utils/BRFv4ExampleChooser.js",						// gui: choose an example
-						// gui: choose which package to download
-
-		// example to load on startup, others can be chosen via the example chooser GUI.
 
 		"js/examples/face_tracking/png_mask_overlay.js"		// start with this example
 
 	], function() {
-
 		brfv4Example.init("webcam");
-
 	});
 };
-
-//
-// Helper stuff: logging and loading
-//
-
-// Custom way to write to a log/error to console.
 
 brfv4Example.trace = function(msg, error) {
 	if(typeof window !== 'undefined' && window.console) {
@@ -88,12 +61,6 @@ brfv4Example.trace = function(msg, error) {
 		else { window.console.log(now + ': ', msg); }
 	}
 };
-
-// loading of javascript files:
-//
-// preload(filesToLoad, callback) // filesToLoad (array)
-// loadExample(filesToLoad, callback) // filesToLoad (array)
-// setProgressBar(percent, visible)
 
 (function () {
 	"use strict";
@@ -139,7 +106,6 @@ brfv4Example.trace = function(msg, error) {
 	};
 
 	loader.setProgressBar = function(percent, visible) {
-
 		var bar = document.getElementById("_progressBar");
 		if(!bar) return;
 
