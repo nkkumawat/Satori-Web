@@ -164,6 +164,28 @@
 
 		}));
 	};
+	
+	t3d.loadJSONModel = function(url, maxFaces) {
+
+		t3d.addBaseNodes(maxFaces);
+		t3d.updateLayout(dom.stageWidth, dom.stageHeight);
+
+		var containers = t3d.baseNodes;
+		var loader = new THREE.JSONLoader();
+		
+		loader.load(url, (function(model) {
+			
+			for(var k = 0; k < containers.length; k++) {
+				var mesh = model.clone();
+				mesh.position.set(model.position.x, model.position.y, model.position.z);
+				mesh.renderOrder = 2;
+				containers[k].add(mesh);
+			}
+
+			t3d.render();
+
+		}));
+	};
 
 	t3d.showOcclusionObjects = function(showThem) {
 
