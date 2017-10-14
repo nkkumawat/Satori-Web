@@ -7,15 +7,12 @@
 	function loadModels() {
 
 		if(t3d) {
-
-			// Remove all models and load new ones.
-
 			t3d.removeAll();
-			t3d.loadOcclusionHead("assets/brfv4_occlusion_head.json", numFacesToTrack);
-			t3d.loadModel("assets/brfv4_model.json", numFacesToTrack);
+			//t3d.loadOcclusionHead("assets/brfv4_occlusion_head.json", numFacesToTrack);
+			t3d.loadModel("assets/sample.json", numFacesToTrack);
 		}
 	}
-
+	
 	brfv4Example.initCurrentExample = function(brfManager, resolution) {
 
 		brfManager.init(resolution, resolution, brfv4Example.appId);
@@ -64,9 +61,4 @@
 
 		if(t3d) { t3d.render(); }
 	};
-
-	brfv4Example.dom.updateCodeSnippet(exampleCode + "");
-
-	brfv4Example.dom.updateHeadline("BRFv4 - advanced - face_tracking - ThreeJS example.\n" +
-		"Tracks up to " + numFacesToTrack + " faces and puts glasses on them.");
 })();
