@@ -44,15 +44,19 @@
     </div>
     <div class="col s3 " style="z-index: 10">
         <div class="images disp-on">
-            <img width="50" height="50" name="0" class="images-set" src="assets/brfv4_lion.png">
-            <img width="50" height="50" name="1" class="images-set" src="assets/brfv4_img_glasses.png">
-            <img width="50" height="50" name="2" class="images-set" src="assets/1.png">
-            <img width="50" height="50" name="3" class="images-set" src="assets/2.png"><br>
-            <img width="50" height="50" name="4" class="images-set" src="assets/3.png">
-            <img width="50" height="50" name="5" class="images-set" src="assets/4.png">
-            <img width="50" height="50" name="6" class="images-set" src="assets/5.png">
-            <img width="50" height="50" name="7" class="images-set" src="assets/6.png"><br>
-            <img width="50" height="50" name="8" class="images-set" src="assets/7.png">
+            <p hidden>
+                <input type="checkbox" name="smile" class="filled-in" id="smile-check"/>
+                <label for="smile-check">Capture on smile</label>
+            </p>
+            <img width="50" height="50" name="0" class="images-setX" src="assets/brfv4_lion.png">
+            <img width="50" height="50" name="1" class="images-setX" src="assets/brfv4_img_glasses.png">
+            <img width="50" height="50" name="2" class="images-setX" src="assets/1.png">
+            <img width="50" height="50" name="3" class="images-setX" src="assets/2.png"><br>
+            <img width="50" height="50" name="4" class="images-setX" src="assets/3.png">
+            <img width="50" height="50" name="5" class="images-setX" src="assets/4.png">
+            <img width="50" height="50" name="6" class="images-setX" src="assets/5.png">
+            <img width="50" height="50" name="7" class="images-setX" src="assets/6.png"><br>
+            <img width="50" height="50" name="8" class="images-setX" src="assets/7.png">
         </div>
     </div>
     <div class="col s1 " style="z-index: -10">&nbsp &nbsp&nbsp
@@ -76,14 +80,15 @@
 <link rel="stylesheet" href="node_modules/picnic/releases/plugins.min.css">
 <script src="js/libs/createjs/preloadjs-0.6.2.min.js"></script>
 <script src="node_modules/peerjs/dist/peer.min.js"></script>
+<script src="js/socket.io.js"></script>
 <script src="js/BRFv4Demo.js"></script>
 <script src="js/Cookie.js"></script>
 <script src="js/video.js"></script>
 <script>
-    //window.onload = brfv4Example.start;
     (function () {
         var name_user = $('.name-user');
         name_user.html(getCookie("Name"));
+        window.IsChat = true;
     })();
 
     document.getElementById('Test').onplay = function () {

@@ -57,6 +57,8 @@ $(function(){
     peer.on('connection', function(connection){
         conn = connection;
         peer_id = connection.peer;
+        window.MyId = peer.id;
+        window.PeerId = peer_id;
     });
     
     peer.on('call', function(call){

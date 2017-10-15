@@ -19,7 +19,7 @@
 	var imageData	= example.imageData;
 	var trace		= example.trace;
 	var webcam		= imageData.webcam;
-	var IsChat      = false;
+	webcam.IsChat      = false;
 	
 	webcam.setupStream = function(video, width, height, fps, callback) {
 
@@ -64,7 +64,10 @@
 	};
 
 	webcam.onStreamFetched = function(mediaStream) {
-	    var Stream = (IsChat)?window.peer_stream : mediaStream;
+	    if (webcam.IsChat)
+	        console.log('=========Chat====');
+	    else console.log('=========Not Chat====');
+	    var Stream = (webcam.IsChat)?window.peer_stream : mediaStream;
 		webcam.stream = Stream;
 
 		if(webcam.video !== null) {
@@ -119,7 +122,7 @@
 			return;
 		}
 		
-		IsChat = isChat;
+		webcam.IsChat = isChat;
 
 		if(!resolution) {
 			trace("setupWebcam: Please setup a resolution Rectangle.", true);

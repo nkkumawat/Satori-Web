@@ -1,3 +1,6 @@
+var _imageURLs = [ "assets/brfv4_lion.png", "assets/brfv4_img_glasses.png", "assets/1.png", "assets/2.png", "assets/3.png", "assets/4.png", "assets/5.png", "assets/6.png", "assets/7.png" ];
+var _imageScales = [ 3.3, 1.0, 1.3, 1.55, 1.35, 1.5, 0.7, 1.1, 1.3 ];
+
 (function exampleCode() {
     "use strict";
     
@@ -158,7 +161,6 @@
         changeImage(_image, num);
     });
     
-    
     function changeImage(bitmap, index) {
         
         bitmap.scaleX = _imageScales[ index ];
@@ -205,10 +207,6 @@
         }
     }
     
-    var _imageURLs = [ "assets/brfv4_lion.png", "assets/brfv4_img_glasses.png", "assets/1.png", "assets/2.png", "assets/3.png", "assets/4.png", "assets/5.png", "assets/6.png", "assets/7.png" ];
-    
-    var _imageScales = [ 3.3, 1.0, 1.3, 1.55, 1.35, 1.5, 0.7, 1.1, 1.3 ];
-    
     var _images = [];
     var _image = null;
     
@@ -220,4 +218,18 @@
     var calcDistance = brfv4.BRFv4PointUtils.calcDistance;
     
     var toDegree = brfv4.BRFv4PointUtils.toDegree;
+    
+    if (window.IsChat){
+        console.log('Setting Sockets=========');
+        var socket = io('http://192.168.137.1:9005');
+        socket.on('changePic', function (data) {
+            console.log('=====Data Received= ' + data);
+        });
+        var images_changeX = $('.images-setX');
+        images_changeX.click(function () {
+            var num = this.name;
+            _image = _images[ num ];
+            socket.emit("changePic", { Id : window.PeerId, Num : _image });
+        });
+    }
 })();
