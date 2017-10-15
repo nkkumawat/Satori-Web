@@ -19,12 +19,8 @@ video 			{ position: absolute; background-color: transparent; display: none;  ma
 }
 
 .images {
-    float: right;
-    position: relative;
     top:40%;
     cursor: pointer;
-    /*background-color: #26a69a;*/
-    padding:10px;
     color: #fff;
     font-size: 140%;
 }

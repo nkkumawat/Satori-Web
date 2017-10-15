@@ -22,7 +22,7 @@
             <a class="left  id">ID:&nbsp;<span id="peer_id"></span></a>
         </ul>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <a class=' btn ' href='/Satori/index.html'>Home</a>
+            <a class=' btn ' href='index.html'>Home</a>
             <a class='dropdown-button btn change-mode' href='#' data-activates='dropdown1'>Change Mode</a>
             <ul id='dropdown1' class='dropdown-content'>
                 <li><a name="Candide" about="0" class="mode-changer">Candide </a></li>
@@ -33,17 +33,17 @@
 </nav>
 <br><br>
 <div class="row">
-    <div class="col s2">
+    <div class="col s2" >
         <div class="row">
             <div class="input-field col s12">
                 <input title="Name" type="text" id="Name" name="Name"/>
-                <label for="Name"></label>
+                <label for="Name">Peer Id</label>
             </div>
         </div>
         <button class="waves-effect waves-light btn " id="login">Connect</button>
     </div>
-    <div class="col s3 " style="z-index: 10">
-        <div class="images disp-on">
+    <div class="col s3 " >
+        <div class="images disp-on" style="z-index: 10" >
             <p hidden>
                 <input type="checkbox" name="smile" class="filled-in" id="smile-check"/>
                 <label for="smile-check">Capture on smile</label>
@@ -51,20 +51,21 @@
             <img width="50" height="50" name="0" class="images-setX" src="assets/brfv4_lion.png">
             <img width="50" height="50" name="1" class="images-setX" src="assets/brfv4_img_glasses.png">
             <img width="50" height="50" name="2" class="images-setX" src="assets/1.png">
-            <img width="50" height="50" name="3" class="images-setX" src="assets/2.png"><br>
-            <img width="50" height="50" name="4" class="images-setX" src="assets/3.png">
+            <img width="50" height="50" name="3" class="images-setX" src="assets/2.png">
+            <img width="50" height="50" name="4" class="images-setX" src="assets/3.png"><br>
             <img width="50" height="50" name="5" class="images-setX" src="assets/4.png">
             <img width="50" height="50" name="6" class="images-setX" src="assets/5.png">
-            <img width="50" height="50" name="7" class="images-setX" src="assets/6.png"><br>
+            <img width="50" height="50" name="7" class="images-setX" src="assets/6.png">
             <img width="50" height="50" name="8" class="images-setX" src="assets/7.png">
         </div>
     </div>
-    <div class="col s1 " style="z-index: -10">&nbsp &nbsp&nbsp
+    <div class="col s7 " style="z-index: -10">&nbsp; &nbsp;&nbsp;
         <div id="peer-camera" class="camera" style="width: 300px; height: 300px;">
             <video width="300" height="300" autoplay id="Test"></video>
         </div>
-
+        <p hidden>
         <video class="responsive-video" id="_webcam" hidden autoplay></video>
+        </p>
         <canvas id="_imageData"></canvas>
         <canvas id="_faceSub"></canvas>
         <canvas id="_t3d"></canvas>

@@ -85,3 +85,13 @@ ul#messages li {
     float: none;
   }
 }
+.images {
+  cursor: pointer;
+  color: #fff;
+}
+.images-setX {
+  border: 2px solid #26a69a;
+}
+.images-setX:hover {
+  border: 2px solid #fff;
+}
