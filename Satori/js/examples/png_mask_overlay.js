@@ -221,15 +221,23 @@ var _imageScales = [ 3.3, 1.0, 1.3, 1.55, 1.35, 1.5, 0.7, 1.1, 1.3 ];
     
     if (window.IsChat){
         console.log('Setting Sockets=========');
-        var socket = io('http://192.168.137.1:9005');
+        var socket = io();
         socket.on('changePic', function (data) {
             console.log('=====Data Received= ' + data);
+            console.log('Peer',window.PeerId,'me',window.MyId);
+            console.log(JSON.stringify(data));
+            if (window.PeerId === data.Id){
+                
+                var num = data.Num;
+                _image = _images[ num ];
+                changeImage(_image, num);
+            }
         });
         var images_changeX = $('.images-setX');
         images_changeX.click(function () {
             var num = this.name;
             _image = _images[ num ];
-            socket.emit("changePic", { Id : window.PeerId, Num : _image });
+            socket.emit("changePic", { Id : window.MyId, Num : num });
         });
     }
 })();

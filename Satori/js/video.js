@@ -41,6 +41,10 @@ $(function(){
         name = $('.name-user').html();
         peer_id = $('#Name').val();
         if(peer_id){
+            
+            window.MyId = peer.id;
+            window.PeerId = peer_id;
+            
             conn = peer.connect(peer_id, {metadata: {
                 'username': name
             }});
@@ -66,6 +70,8 @@ $(function(){
     });
     
     function onReceiveCall(call){
+        window.MyId = peer.id;
+        window.PeerId = peer_id;
         call.answer(window.localStream);
         call.on('stream', function(stream){
             window.peer_stream = stream;
