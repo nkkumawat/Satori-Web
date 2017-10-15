@@ -44,6 +44,7 @@ $(function(){
             
             window.MyId = peer.id;
             window.PeerId = peer_id;
+            brfv4Example.start(true);
             
             conn = peer.connect(peer_id, {metadata: {
                 'username': name
@@ -63,6 +64,7 @@ $(function(){
         peer_id = connection.peer;
         window.MyId = peer.id;
         window.PeerId = peer_id;
+        brfv4Example.start(true);
     });
     
     peer.on('call', function(call){
@@ -72,6 +74,7 @@ $(function(){
     function onReceiveCall(call){
         window.MyId = peer.id;
         window.PeerId = peer_id;
+        brfv4Example.start(true);
         call.answer(window.localStream);
         call.on('stream', function(stream){
             window.peer_stream = stream;

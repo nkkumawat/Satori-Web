@@ -12,13 +12,16 @@ var brfv4Example = {
 	drawing3d: {
 		t3d: {}
 	},
-	stats: {}
+	stats: {},
+    started : false
 };
 
 var brfv4 = {locateFile: function(fileName) { return "js/libs/brf/BRFv4_JS_trial.js.mem"; }};
 
 brfv4Example.start = function(isChat) {
-    
+    if (brfv4.IsChat && brfv4Example.started)
+        return;
+    brfv4Example.started = true;
 	brfv4Example.loader.preload([
 
 		"js/libs/brf/BRFv4_JS_trial.js",						// BRFv4 SDK

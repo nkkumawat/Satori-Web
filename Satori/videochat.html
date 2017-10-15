@@ -81,6 +81,11 @@
 <script src="js/libs/createjs/preloadjs-0.6.2.min.js"></script>
 <script src="node_modules/peerjs/dist/peer.min.js"></script>
 <script src="js/socket.io.js"></script>
+<script>
+    (function () {
+        window.IsChat = true;
+    })();
+</script>
 <script src="js/BRFv4Demo.js"></script>
 <script src="js/Cookie.js"></script>
 <script src="js/video.js"></script>
@@ -88,11 +93,11 @@
     (function () {
         var name_user = $('.name-user');
         name_user.html(getCookie("Name"));
-        window.IsChat = true;
+        brfv4Example.IsChat = true;
     })();
 
     document.getElementById('Test').onplay = function () {
-        brfv4Example.start(true);
+        //brfv4Example.start(true);
     };
 </script>
 </body>
