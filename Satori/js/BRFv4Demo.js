@@ -17,8 +17,8 @@ var brfv4Example = {
 
 var brfv4 = {locateFile: function(fileName) { return "js/libs/brf/BRFv4_JS_trial.js.mem"; }};
 
-brfv4Example.start = function() {
-
+brfv4Example.start = function(isChat) {
+    
 	brfv4Example.loader.preload([
 
 		"js/libs/brf/BRFv4_JS_trial.js",						// BRFv4 SDK
@@ -50,7 +50,7 @@ brfv4Example.start = function() {
 		"js/examples/candide_overlay.js"		// start with this example
 
 	], function() {
-		brfv4Example.init("webcam");
+		brfv4Example.init("webcam", isChat);
 	});
 };
 

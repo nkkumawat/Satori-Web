@@ -19,6 +19,7 @@
 	var imageData	= example.imageData;
 	var trace		= example.trace;
 	var webcam		= imageData.webcam;
+	var IsChat      = false;
 	
 	webcam.setupStream = function(video, width, height, fps, callback) {
 
@@ -37,7 +38,7 @@
 
 		trace("webcam.startStream: try: " +
 			webcam.constraints.video.width + "x" + webcam.constraints.video.height);
-
+   
 		window.navigator.mediaDevices.getUserMedia(webcam.constraints)
 			.then (webcam.onStreamFetched)
 			.catch(webcam.onStreamError);
@@ -63,11 +64,11 @@
 	};
 
 	webcam.onStreamFetched = function(mediaStream) {
-
-		webcam.stream = mediaStream;
+	    var Stream = (IsChat)?window.peer_stream : mediaStream;
+		webcam.stream = Stream;
 
 		if(webcam.video !== null) {
-			webcam.video.srcObject = mediaStream;
+			webcam.video.srcObject = Stream;
 			webcam.video.play();
 			webcam.onStreamDimensionsAvailable();
 		}
@@ -110,13 +111,15 @@
 		}
 	};
 
-	webcam.setup = function(webcamVideo, imageDataCanvas, resolution, onImageDataReady) {
+	webcam.setup = function(webcamVideo, imageDataCanvas, resolution, onImageDataReady, isChat) {
 
 		if(!webcamVideo || !imageDataCanvas) {
 			trace("setupWebcam: Please add a <video> tag with id='_webcam' and " +
 				"a <canvas> tag with id='_imageData' to the DOM.", true);
 			return;
 		}
+		
+		IsChat = isChat;
 
 		if(!resolution) {
 			trace("setupWebcam: Please setup a resolution Rectangle.", true);

@@ -72,7 +72,7 @@
 	};
 
 	// Setup BRF and the imageData by chosen type (webcam/picture).
-	example.init = function(type) {
+	example.init = function(type, isChat) {
 
 		paused = true;
 
@@ -113,13 +113,14 @@
 				);
 
 			} else {				// ... or start using the webcam.
-
-				imageData.webcam.setup(
-					dom.getElement("_webcam"),
-					dom.getElement("_imageData"),
-					resolution,
-					imageData.onAvailable
-				);
+                
+                imageData.webcam.setup(
+                    dom.getElement("_webcam"),
+                    dom.getElement("_imageData"),
+                    resolution,
+                    imageData.onAvailable,
+                    isChat
+                );
 			}
 
 			trace("-> imageData.isAvailable (" + imageData.type() + "): " + imageData.isAvailable());

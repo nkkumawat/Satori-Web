@@ -57,7 +57,6 @@ $(function(){
     peer.on('connection', function(connection){
         conn = connection;
         peer_id = connection.peer;
-        conn.on('data', handleMessage);
     });
     
     peer.on('call', function(call){
